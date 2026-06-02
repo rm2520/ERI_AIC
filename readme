@@ -72,11 +72,10 @@ The framework evaluates five state-of-the-art image captioning architectures:
 +-- data/
 ¦   +-- ERI-AIC/
         +--ERI_Dataset
-		+--ERI_text
-		   +--ERI.arabic.full
-		   +--ERI.devImages
-		   +--ERI.trainImages
-		   +--ERI.testImages
+		+--Wasef_text
+		   +--final_text_caption
+		   +--wasef_train80
+		   +--wasef_test20
 ¦   +-- Flickr8k/
 ¦   +-- MSCOCO/
 ¦
