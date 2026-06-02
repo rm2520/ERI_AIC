@@ -180,6 +180,21 @@ cd Image-caption_model1
 ---
 
 ## Training
+Model configs
+
+- embedding_dim: 512
+- max_seq_len: 128
+- dropout: 0.5
+
+###  Hyperparameters
+
+- n_epochs: 100
+- batch_size: 100
+- hidden_layer :512
+- learning_rate: 1e-2
+- optimizer: Adam
+- loss: CrossEntropyLoss
+- early_stopping: 30
 
 ```bash
 python main.py
