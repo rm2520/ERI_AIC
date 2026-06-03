@@ -74,11 +74,6 @@ The framework evaluates four state-of-the-art image captioning architectures:
 .
 +-- data/
 ¦   +-- ERI-AIC/
-        +--ERI_Dataset
-		+--Wasef_text
-		   +--final_text_caption
-		   +--wasef_train80
-		   +--wasef_test20
 ¦   +-- Flickr8k/
 ¦   +-- MSCOCO/
 ¦
