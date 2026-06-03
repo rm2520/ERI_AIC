@@ -8,11 +8,11 @@ This project benchmarks multiple image captioning architectures on three Arabic 
 - Arabic Flickr8k
 - Arabic MS-COCO
 
-## ?? Model Architectures
+# Model Architectures
 
 The framework evaluates five state-of-the-art image captioning architectures:
 
-1.Encoder–Decoder (VGG19 + LSTM):** Uses a pre-trained VGG19 network to extract deep visual features, paired with a sequence-generating Long Short-Term Memory (LSTM) decoder network.
+1.Encoderâ€“Decoder (VGG19 + LSTM):** Uses a pre-trained VGG19 network to extract deep visual features, paired with a sequence-generating Long Short-Term Memory (LSTM) decoder network.
 2.MobileNetV2 + LSTM + Attention:** Combines a lightweight, efficient MobileNetV2 feature extractor with an LSTM decoder utilizing a spatial attention layer to focus on relevant image regions dynamically.
 3.MobileNetV2 + GRU + Attention:** Swaps the sequential decoder for a Gated Recurrent Unit (GRU) to optimize computational efficiency while keeping attention layers intact.
 4.Top-Down Attention Model:** Employs a dual-LSTM network design. An attention LSTM determines where to focus visual field dependencies, while a language generation LSTM predicts output text sequences.
@@ -50,7 +50,7 @@ The framework evaluates five state-of-the-art image captioning architectures:
 
 ### Image Processing
 
-- Resize to 224 × 224
+- Resize to 224 Ã— 224
 - RGB channels
 - Pixel normalization to [-1, 1]
 
@@ -70,20 +70,20 @@ The framework evaluates five state-of-the-art image captioning architectures:
 ```text
 .
 +-- data/
-¦   +-- ERI-AIC/
+Â¦   +-- ERI-AIC/
         +--ERI_Dataset
 		+--Wasef_text
 		   +--final_text_caption
 		   +--wasef_train80
 		   +--wasef_test20
-¦   +-- Flickr8k/
-¦   +-- MSCOCO/
-¦
+Â¦   +-- Flickr8k/
+Â¦   +-- MSCOCO/
+Â¦
 +-- models/
-¦   +-- encoder_decoder/
-¦   +-- lstm_attention/
-¦   +-- gru_attention/
-¦   +-- top_down_attention/
+Â¦   +-- encoder_decoder/
+Â¦   +-- lstm_attention/
+Â¦   +-- gru_attention/
+Â¦   +-- top_down_attention/
 
 
 +-- README.md
@@ -97,7 +97,7 @@ The framework evaluates five state-of-the-art image captioning architectures:
 
 | Model | BLEU-1 | BLEU-4 | METEOR | CIDEr | ROUGE |
 |---------|---------|---------|---------|---------|---------|
-| Encoder–Decoder | 32.9 | 4.2 | 0.246 | 0.225 | 0.14 |
+| Encoderâ€“Decoder | 32.9 | 4.2 | 0.246 | 0.225 | 0.14 |
 | LSTM + Attention | 48.5 | 11.6 | 0.350 | 0.310 | 0.32 |
 | GRU + Attention | 48.7 | 11.3 | 0.348 | 0.316 | 0.31 |
 | Top-Down Attention | 45.4 | 9.2 | 0.317 | 0.255 | 0.29 |
@@ -109,7 +109,7 @@ The framework evaluates five state-of-the-art image captioning architectures:
 
 | Model | BLEU-1 | BLEU-4 | METEOR | CIDEr | ROUGE |
 |---------|---------|---------|---------|---------|---------|
-| Encoder–Decoder | **61.9** | **42.1** | **0.720** | 0.265 | 0.10 |
+| Encoderâ€“Decoder | **61.9** | **42.1** | **0.720** | 0.265 | 0.10 |
 | LSTM + Attention | 40.9 | 6.8 | 0.289 | 0.200 | 0.30 |
 | GRU + Attention | 41.2 | 7.0 | 0.290 | 0.210 | 0.31 |
 | Top-Down Attention | 37.2 | 4.9 | 0.250 | 0.160 | 0.24 |
@@ -121,7 +121,7 @@ The framework evaluates five state-of-the-art image captioning architectures:
 
 | Model | BLEU-1 | BLEU-4 | METEOR | CIDEr | ROUGE |
 |---------|---------|---------|---------|---------|---------|
-| Encoder–Decoder | 41.0 | 9.6 | 0.255 | 0.265 | 0.15 |
+| Encoderâ€“Decoder | 41.0 | 9.6 | 0.255 | 0.265 | 0.15 |
 | LSTM + Attention | 64.4 | 20.9 | 0.401 | 0.338 | 0.35 |
 | GRU + Attention | 64.1 | 21.3 | 0.412 | 0.376 | 0.36 |
 | Top-Down Attention | 61.3 | 15.1 | 0.319 | 0.270 | 0.32 |
