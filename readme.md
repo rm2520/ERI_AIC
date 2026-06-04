@@ -181,6 +181,8 @@ cd Image-caption_model1
 
 
 ```
+## Overview of preproceesing
+<img width="567" height="359" alt="image" src="https://github.com/user-attachments/assets/4b7ac926-ecd2-434a-ab67-a77ecdb31a93" />
 
 ---
 
