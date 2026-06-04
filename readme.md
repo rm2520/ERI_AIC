@@ -82,8 +82,16 @@ The framework evaluates four state-of-the-art image captioning architectures:
 ¦   +-- lstm_attention/
 ¦   +-- gru_attention/
 ¦   +-- top_down_attention/
-
-
++-- Arabic_Preprocessing.py
++-- Data_Loader.py
++-- Data_Manager.py
++-- Data_Preparing.py
++-- Evaluate.py
++-- Img_Features.py
++-- main.py
++-- Models.py
++-- Text_Features.py
++-- utils.py
 +-- README.md
 ```
 
