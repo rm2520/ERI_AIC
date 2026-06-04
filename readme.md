@@ -185,10 +185,6 @@ cd Image-caption_model1
 <img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/4b7ac926-ecd2-434a-ab67-a77ecdb31a93" />
 
 ---
-## Generated Caption
-<img width="166" height="130" alt="image" src="https://github.com/user-attachments/assets/8ddf2a82-57b8-48c6-8aad-45180b43b609" />
-<img width="173" height="130" alt="image" src="https://github.com/user-attachments/assets/c5c0cadc-0467-46a3-9ad3-be9e4e6e1fe0" />
-<img width="173" height="130" alt="image" src="https://github.com/user-attachments/assets/680f0013-4338-4292-9ffa-2f45f0653d4b" />
 
 
 
