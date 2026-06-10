@@ -159,7 +159,9 @@ def train(train_Data,model,criterion,optimizer,epoch,total_step,old_loss,model_n
         # Forward, backward and optimize
         outputs = model(img_feat, text_features,length)
         targets = pack_padded_sequence(text_features, length, batch_first=True)[0]
-        outputs = pack_padded_sequence(outputs, length, batch_first=True)[0]
+        if model_name !='Jundi':
+            outputs = pack_padded_sequence(outputs, length, batch_first=True)[0]
+
 
 
 
