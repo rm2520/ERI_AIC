@@ -4,7 +4,7 @@ An Arabic Image Captioning framework that combines Computer Vision and Natural L
 
 This project benchmarks multiple image captioning architectures on three Arabic captioning datasets:
 
-- ERI-AIC (Proposed Dataset)
+- ERI-AIC ( https://eri-aic.eri.sci.eg/)
 - Arabic Flickr8k
 - Arabic MS-COCO
 
